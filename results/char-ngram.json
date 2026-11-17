@@ -1,0 +1,45 @@
+{
+  "system": "char-ngram",
+  "description": "character 2+2 context backoff model trained on the target side of train",
+  "train_sentences": 60000,
+  "contexts": 2987225,
+  "fit_seconds": 7.0,
+  "metrics": {
+    "clean": {
+      "n": 1000,
+      "boundary_precision": 0.932269619016607,
+      "boundary_recall": 0.8268194070080862,
+      "boundary_f1": 0.8763838579664303,
+      "word_f1": 0.7248738484329429,
+      "sentence_accuracy": 0.178,
+      "content_changed_rate": 0.0
+    },
+    "mixed": {
+      "n": 1000,
+      "boundary_precision": 0.932269619016607,
+      "boundary_recall": 0.8268194070080862,
+      "boundary_f1": 0.8763838579664303,
+      "word_f1": 0.7248738484329429,
+      "sentence_accuracy": 0.178,
+      "content_changed_rate": 0.0
+    },
+    "nospace": {
+      "n": 1000,
+      "boundary_precision": 0.932269619016607,
+      "boundary_recall": 0.8268194070080862,
+      "boundary_f1": 0.8763838579664303,
+      "word_f1": 0.7248738484329429,
+      "sentence_accuracy": 0.178,
+      "content_changed_rate": 0.0
+    },
+    "all": {
+      "n": 3000,
+      "boundary_precision": 0.932269619016607,
+      "boundary_recall": 0.8268194070080862,
+      "boundary_f1": 0.8763838579664303,
+      "word_f1": 0.7248738484329429,
+      "sentence_accuracy": 0.178,
+      "content_changed_rate": 0.0
+    }
+  }
+}

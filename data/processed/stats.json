@@ -1,0 +1,12 @@
+{
+  "articles_read": 37522,
+  "source": "wikimedia/wikipedia 20231101.ko",
+  "train": 60000,
+  "val": 1500,
+  "test": 3000,
+  "sentences": {
+    "train": 60000,
+    "val": 500,
+    "test": 1000
+  }
+}

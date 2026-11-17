@@ -1,0 +1,42 @@
+{
+  "system": "copy-input",
+  "description": "returns the input unchanged",
+  "metrics": {
+    "clean": {
+      "n": 1000,
+      "boundary_precision": 1.0,
+      "boundary_recall": 1.0,
+      "boundary_f1": 1.0,
+      "word_f1": 1.0,
+      "sentence_accuracy": 1.0,
+      "content_changed_rate": 0.0
+    },
+    "mixed": {
+      "n": 1000,
+      "boundary_precision": 0.8065268065268065,
+      "boundary_recall": 0.49961494031574893,
+      "boundary_f1": 0.6170124234678713,
+      "word_f1": 0.31461509854964664,
+      "sentence_accuracy": 0.0,
+      "content_changed_rate": 0.0
+    },
+    "nospace": {
+      "n": 1000,
+      "boundary_precision": 0.0,
+      "boundary_recall": 0.0,
+      "boundary_f1": 0.0,
+      "word_f1": 0.0,
+      "sentence_accuracy": 0.0,
+      "content_changed_rate": 0.0
+    },
+    "all": {
+      "n": 3000,
+      "boundary_precision": 0.9259941746418594,
+      "boundary_recall": 0.4998716467719163,
+      "boundary_f1": 0.6492591743597225,
+      "word_f1": 0.5315724155815289,
+      "sentence_accuracy": 0.3333333333333333,
+      "content_changed_rate": 0.0
+    }
+  }
+}
